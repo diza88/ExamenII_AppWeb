@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConexionBD_Xamarin.Views.CreacionTelefono"
+             Title="Creacion de telefonos">
+    <Grid>
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Entry Placeholder="Ingrese id del proveedor" Keyboard="Text" x:Name="f_proveedor" Grid.Row="0" Grid.Column="0" Margin="10,0"></Entry>
+        <Entry Placeholder="Ingrese numero de telefono" Keyboard="Text" x:Name="f_telefono" Grid.Row="1" Grid.Column="0" Margin="10,0"></Entry>
+        <Button Clicked="CrearTelefono" Text="Enviar Telefono" Grid.Column="0" Grid.Row="2" CornerRadius="5" BackgroundColor="Aquamarine" Margin="10,0,10,0"></Button>
+        <Label x:Name="resultado" Text="" Grid.Row="3" Grid.Column="0" TextColor="DarkRed" FontSize="20" HorizontalTextAlignment="Center"></Label>
+        <Entry Placeholder="Ingrese id telofono a borrar" Keyboard="Text" x:Name="f_idph" Grid.Row="4" Grid.Column="0" Margin="10,0"></Entry>
+        <Button Clicked="Btn_Borrar" Text="Borrar dato" Grid.Column="0" Grid.Row="5" CornerRadius="4" BackgroundColor="OrangeRed" x:Name="btn_borrar" TextColor="White" Margin="10,0,10,0"></Button>
+        <Button Clicked="Ver_Lista" Text="Ver lista" Grid.Column="0" Grid.Row="6" CornerRadius="5" BackgroundColor="Aquamarine" x:Name="btn_lista" Margin="10,0,10,0"></Button>
+    
+    </Grid>
+
+
+</ContentPage>

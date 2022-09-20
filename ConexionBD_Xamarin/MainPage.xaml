@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConexionBD_Xamarin.MainPage"
+             xmlns:local="clr-namespace:ConexionBD_Xamarin.Views">
+    <Grid>
+        <!--<Image Source="Fondo_01.jpg" Aspect="AspectFill"/>
+        <BoxView BackgroundColor="white" Opacity="0.3" ></BoxView>-->
+        <Grid>
+            <StackLayout>
+                <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                    <Label Text="Conexion BD con Xamarin" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+                </Frame>
+                <Button Text="Ir a Ingredientes" BackgroundColor="DarkSlateBlue" CornerRadius="6" x:Name="btn_ingrediente" Clicked="irIngrediente" Margin="10,0,10,0" TextColor="White"></Button>
+                <Button Text="Crea Unidades" BackgroundColor="Aquamarine" CornerRadius="6" x:Name="btn_unidad" Clicked="irUnidad" Margin="10,0,10,0"></Button>
+                <Button Text="Crea Telefonos" BackgroundColor="Aquamarine" CornerRadius="6" x:Name="btn_telefono" Clicked="irTelefono" Margin="10,0,10,0"></Button>
+                <Button Text="Crea Recetas" BackgroundColor="Aquamarine" CornerRadius="6" x:Name="btn_receta" Clicked="irReceta" Margin="10,0,10,0"></Button>
+                <Button Text="Crea Proveedores" BackgroundColor="Aquamarine" CornerRadius="6" x:Name="btn_proveeddor" Clicked="irProveedor" Margin="10,0,10,0"></Button>
+                <Button Text="Crea Plato" BackgroundColor="Aquamarine" CornerRadius="6" x:Name="btn_plato" Clicked="irPlato" Margin="10,0,10,0"></Button>
+
+            </StackLayout>
+
+        </Grid>
+    </Grid>
+    
+
+</ContentPage>
