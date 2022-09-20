@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZyOaG62yDYIhRDxfmOSV1I8V2eiXGprEmQifP/b05B3V6OC1eIRb3dgK+yC6+yu2q1ABuxJfU/2JR9HhzARKkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rihud_48\\source\\repos\\ConexionBD_Xamarin\\ConexionBD_Xamarin.iOS\\ConexionBD_Xamarin.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rihud_48\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Rihud_48\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Rihud_48\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Rihud_48\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
